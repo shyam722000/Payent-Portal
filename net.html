@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net Banking</title>
+    <link rel="stylesheet" href="net.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                YTSE Pay
+            </div>
+        </div>
+    </nav>
+    <a href="index.html" class="anchor">HOME</a>
+    <h2>Choose Your Bank</h2>
+  <div class="section">
+    
+
+    <div class="form">
+        <form>
+           
+            <label for="bankname">Choose Your Bank</label> 
+            <select name="cars" id="cars">
+                <option value="" disabled selected>Select your bank</option>
+                <option value="SBI">SBI</option>
+                <option value="Federal Bank">Federal Bank</option>
+                <option value="HDFC">HDFC</option>
+                <option value="Axis">Axis</option>
+                <option value="Punchab">Punchab National</option>
+                <option value="Canara">Canara</option>
+                <option value="UCO">UCO</option>
+                <option value="CSB">CSB</option>
+                <option value="IDFC">IDFC</option>
+              </select> <br>
+
+            <label for="cardHolder">Account Holder Name</label>
+            <input type="text" id="cardHolder" placeholder="FullName As per ID Proof" required> <br>
+            
+            <label for="cardNumber">Account Number</label> 
+            <input type="text" id="cardNumber" placeholder="1234 5678 9123 4567" maxlength="16" required> <br> <br>
+
+            <div class="flex-item">
+                <label for="expiryDate">IFSC CODE</label>
+                <input type="text" id="expiryDate" placeholder="IFSC CODE" maxlength="14" required>
+            </div>
+           
+
+            <button type="submit">Submit</button>
+            <i class="fa fa-credit-card" aria-hidden="true"></i>
+        </form>
+    </div>
+
+
+  </div>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sty.css">
+    <title>Your Website</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                YTSE Pay
+            </div>
+        </div>
+    </nav>
+    <div id="marque">
+        <p>"Empowering Your Transactions, Securing Your Trust. Experience Seamless Payments with YTSE Pay – Where Every Transaction Matters."</p>
+    </div>
+
+    <div class="bordered">
+        <h2>Choose The Payment Options</h2>
+
+        <div class="flex-container">
+
+            <div onclick="newPage('cand.html')" class="box">
+                <img src="realistic-credit-card-design_23-2149126088.avif" alt="Image 1">
+                <h2>Credit/Debit Card</h2>
+            </div>
+
+            <div onclick="newPage('net.html')" class="box">
+                <img src="netbanking.png" alt="Image 2">
+                <h2>Net Banking</h2>
+            </div>
+
+            <div onclick="newPage('demo.html')" class="box">
+                <img src="download.jpg" alt="Image 3">
+                <h2>Digital Wallet</h2>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function newPage(url) {
+        window.open(url, '_self', 'width=700,height=600');
+    }
+</script>
+</html>

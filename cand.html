@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credi/Debit</title>
+    <link rel="stylesheet" href="cd.css">
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="bg-video">
+            <source src="back video.mp4" type="video/mp4">
+          
+        </video>
+        
+    </div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                YTSE Pay
+            </div>
+        </div>
+    </nav>
+    <a href="index.html" class="anchor">HOME</a>
+    <h2>Enter Credit Card Details</h2>
+  <div class="section">
+    
+
+    <div class="form">
+        <form>
+           
+            <label for="cardNumber">Card Number</label> 
+            <input type="text" id="cardNumber" placeholder="1234 5678 9123 4567" maxlength="19" required> <br> <br>
+            
+            <label for="cardHolder">Card Holder Name</label>
+            <input type="text" id="cardHolder" placeholder="Full Name As per ID Proof" required> <br>
+
+            <div class="flex-item">
+                <label for="expiryDate">Expiry Date</label>
+                <input type="text" id="expiryDate" placeholder="MM/YY" maxlength="5" required>
+            </div>
+            <div class="flex-item">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" placeholder="123" maxlength="4" required>
+            </div>
+
+            <button type="submit">Submit</button>
+            <i class="fa fa-credit-card" aria-hidden="true"></i>
+        </form>
+    </div>
+
+
+  </div>
+    
+</body>
+</html>
