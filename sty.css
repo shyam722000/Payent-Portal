@@ -4,7 +4,8 @@ body {
     padding: 0;
     /* background-color: #d72929; */
     background-image: url("background\ 1.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: fixed;
 
 }
